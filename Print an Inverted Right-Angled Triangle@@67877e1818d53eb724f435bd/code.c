@@ -3,9 +3,10 @@ int main() {
     int a;
     scanf("%d",&a);
     for (int i=1,i<=a;i++){
-        for (int j=0;j<n-i;j++){
+        for (int j=0;j<=a-i;j++){
            printf("*");
-        }printf(" ");
+        }
+        printf(" ");
     }
     return 0;
 }
