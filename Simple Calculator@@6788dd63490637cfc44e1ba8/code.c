@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 int main() {
     int a,b;
     char c;
@@ -8,7 +8,7 @@ int main() {
     printf("%d",a+b);
    }
    else if(c=='-'){
-    printf("%d",abs(a-b));
+    printf("%d",a-b);
    }
    else if(c=='*'){
     printf("%d",a*b);
