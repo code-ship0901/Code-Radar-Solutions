@@ -9,6 +9,6 @@ int main() {
             c+=1;
         }
     }printf("\n");
-    printf("%s", welcome());
+   
     return 0;
 }
