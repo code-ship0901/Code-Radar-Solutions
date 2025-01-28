@@ -1,11 +1,8 @@
 #include <stdio.h>
-void unset(int num, int pos){
-    num &=(~(1<<pos));
-}
 int main() {
-    int n,m;
-    scanf("%d %d",&n,&m);
-    unset(n,m);
+    int num,m;
+    scanf("%d %d",&num,&m);
+    num &= (~(1<<m))
     printf("%d",num);
     return 0;
 }
