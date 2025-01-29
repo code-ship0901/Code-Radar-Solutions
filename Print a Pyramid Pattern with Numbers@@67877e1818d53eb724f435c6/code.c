@@ -11,8 +11,9 @@ int main() {
             printf("%d ",p);
             p++;
         }
+        printf("\n");
     }
-    printf("\n");
+
 
     return 0;
 }
