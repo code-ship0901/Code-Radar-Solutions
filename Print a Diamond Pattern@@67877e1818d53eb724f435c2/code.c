@@ -18,6 +18,6 @@ int main() {
             printf("*");
         }
     }
-    printf("%s", welcome());
+  
     return 0;
 }
