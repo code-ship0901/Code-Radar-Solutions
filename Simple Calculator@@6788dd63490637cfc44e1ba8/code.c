@@ -10,7 +10,7 @@ int main() {
 
     case '-':
     printf("%d",a-b);
-   break;
+    break;
 
     case '*':
     printf("%d",a*b);
@@ -27,4 +27,4 @@ int main() {
    default:
    printf("error");
     return 0;
-}
+}}
