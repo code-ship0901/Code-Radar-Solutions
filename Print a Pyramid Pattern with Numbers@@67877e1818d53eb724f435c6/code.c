@@ -12,5 +12,7 @@ int main() {
             p++;
         }
     }
+    printf("\n");
+
     return 0;
 }
