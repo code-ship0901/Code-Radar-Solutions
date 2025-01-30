@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int a,b;
+    double a,b;
     char c;
     scanf("%lf %lf %c",&a,&b,&c);
     switch(c){
