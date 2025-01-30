@@ -2,14 +2,14 @@
 int main() {
     int a,b;
     char c;
-    scanf("%d %d %c",&a,&b,&c);
+    scanf("%lf %lf %c",&a,&b,&c);
     switch(c){
     case '+':
-    printf("%d",a+b);
+    printf("%0.lf",a+b);
     break;
 
     case '-':
-    printf("%d",a-b);
+    printf("%0.lf",a-b);
     break;
 
     case '*':
@@ -17,7 +17,12 @@ int main() {
     break;
 
     case '/':
+    if(b==0){
+        printf("error");
+    }
+    else{
     printf("%0.lf",a/b);
+    }
     break;
 
     default:
