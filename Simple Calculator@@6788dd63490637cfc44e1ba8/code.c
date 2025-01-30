@@ -2,7 +2,7 @@
 int main() {
     double a,b;
     char c;
-    scanf("%.0lf %0.lf %c",&a,&b,&c);
+    scanf("%df %d %c",&a,&b,&c);
     switch(c){
     case '+':
     printf("%d",a+b);
@@ -13,11 +13,11 @@ int main() {
     break;
 
     case '*':
-    printf("%d",a*b);
+    printf("%0.lf",a*b);
     break;
 
     case '/':
-    printf("%d",a/b);
+    printf("%0.lf",a/b);
     break;
 
     default:
