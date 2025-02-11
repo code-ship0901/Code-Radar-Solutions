@@ -6,9 +6,9 @@ int isPrime(n){
          }
     }
     if (c>0){
-      return 1;
+      return 0;
     }
     else{
-        return 0;
+     return 1;
     }
 }
