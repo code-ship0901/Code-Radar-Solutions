@@ -3,10 +3,12 @@ int main(){
     int n;
     scanf("%d",&n);
     int t[n];
+    int max;
+    int min;
     for (int i=0;i<n;i++){
         scanf("%d",&t[i]);
-        int max=t[0];
-        int min=t[0];
+        max=t[0];
+        min=t[0];
         if (t[i]>max){
             max=t[i];
         }
