@@ -12,7 +12,7 @@ int main(){
     for (int i=0;i<l;i++){
          if (t==a[i]){
             printf("%d",i);
-            return 0;
+            
          }
 
     }
