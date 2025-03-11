@@ -2,12 +2,14 @@
 int main(){
     int l;
     scanf("%d",&l);
-    int t;
-    scanf("%d",&t);
+   
     int a[l];
     for (int i=0;i<l;i++){
         scanf("%d",&a[i]);
     }
+
+    int t;
+    scanf("%d",&t);
 
     for (int i=0;i<l;i++){
          if (t==a[i]){
