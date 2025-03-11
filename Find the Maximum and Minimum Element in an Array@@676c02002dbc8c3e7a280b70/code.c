@@ -8,7 +8,7 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&t[i]);
         max=t[0];
-        min=100;
+        min=t[0];
         if (t[i]>max){
             max=t[i];
         }
