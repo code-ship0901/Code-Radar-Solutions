@@ -8,7 +8,7 @@ int main(){
     for (int i=0;i<l;i++){
          scanf("%d",&a[i]);
     }
-    
+
     for (int i=0;i<l;i++){
          if (t==a[i]){
             printf("%d",i);
@@ -16,5 +16,5 @@ int main(){
          }
 
     }
-    return -1;
+    printf("-1");
 } 
