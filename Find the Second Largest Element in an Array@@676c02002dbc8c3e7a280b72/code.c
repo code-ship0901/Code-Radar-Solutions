@@ -14,7 +14,7 @@ int main(){
     }
     int m2=m1;
      for (int i=0;i<l;i++){
-         if (arr[i]>m2){
+         if (arr[i]>m2 && arr[i]!=m1){
             m2=arr[i];
          }
     }
