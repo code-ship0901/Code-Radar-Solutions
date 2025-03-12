@@ -6,8 +6,9 @@ int main(){
     for (int i=0;i<l;i++){
         scanf("%d",&a[i]);
     }
+
     if (l%2!=0){
-        printf("%d",a[(l/2)+1]);
+        printf("%d",a[(l/2)]);
     }
     else if(l%2==0){
         printf("%d",(a[(l/2)]+a[(l/2)+1])/2);
