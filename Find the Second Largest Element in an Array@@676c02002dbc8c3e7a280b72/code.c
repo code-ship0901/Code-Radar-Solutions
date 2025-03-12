@@ -18,5 +18,5 @@ int main(){
             m2=arr[i];
          }
     }
-    printf("%d",&m2);
+    printf("%d",m2);
 }
