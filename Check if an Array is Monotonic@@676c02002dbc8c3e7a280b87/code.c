@@ -13,16 +13,11 @@ int main(){
         if (a[i]>a[i+1]){
             inc=0;
         }
-    }
-    
-
-    for(int i=0;i<n;i++){
         if (a[i]>=a[i+1]){
             dec=0;
         }
-   
     }
-    
+        
    if (inc||dec){
     printf("YES");
    }
