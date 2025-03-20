@@ -6,23 +6,24 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int c=0;
-    if (a[0]<=a[1]){
+    int inc=1;
+    int dec=1;
+    
     for(int i=0;i<n;i++){
-        if (a[i]<=a[i+1]){
-            c++;
+        if (a[i]>a[i+1]){
+            inc=0;
         }
-    }
-    }
-    else if(a[0]>=a[1]){
-    for(int i=0;i<n;i++){
-        if (a[i]>=a[i+1]){
-            c++;
-        }
-    }
     }
     
-   if (c==n-1){
+
+    for(int i=0;i<n;i++){
+        if (a[i]>=a[i+1]){
+            dec=0;
+        }
+   
+    }
+    
+   if (inc||dec){
     printf("YES");
    }
     else{
