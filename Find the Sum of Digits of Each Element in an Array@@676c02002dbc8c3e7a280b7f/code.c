@@ -14,6 +14,6 @@ int main(){
             sum+=fd;
             a[i]=a[i]/10;
         }
-        printf("%d ",sum);
+        printf("%d ",abs(sum));
    }
 }
