@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int n,fd;
-    int rev=0;
+    
     int c=0;
     scanf("%d",&n);
     int a[n];
@@ -11,6 +11,7 @@ int main(){
 
     for (int i=0;i<n;i++){
         int og=a[i];
+        int rev=0;
         while (a[i]>0){
             fd=a[i]%10;
             rev=rev*10+fd;
