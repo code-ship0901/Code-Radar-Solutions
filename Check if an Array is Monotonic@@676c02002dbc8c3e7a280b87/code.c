@@ -7,15 +7,24 @@ int main(){
         scanf("%d",&a[i]);
     }
     int c=0;
+    if (a[0]<=a[1]){
     for(int i=0;i<n;i++){
-        if ((a[i]<=a[i+1])||(a[i]>=a[i+1])){
+        if (a[i]<=a[i+1]){
             c++;
         }
     }
-    if (c==n-1){
-        printf("YES");
-
     }
+    else if(a[0]>=a[1]){
+    for(int i=0;i<n;i++){
+        if (a[i]>=a[i+1]){
+            c++;
+        }
+    }
+    }
+    
+   if (c==n-1){
+    printf("YES");
+   }
     else{
         printf("NO");
     }
