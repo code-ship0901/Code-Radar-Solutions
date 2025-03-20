@@ -12,13 +12,15 @@ int main(){
         if  (a[i]%2==0){
            c++;
         }
-        if (c==0){
-            printf("-1");
-        }
+        
         if (a[i]>largest && a[i]%2==0){
             largest=a[i];   
         }
     }
+    if (c==0){
+            printf("-1");
+        }
+        else{
     printf("%d",largest);
-    
+        }
 }
