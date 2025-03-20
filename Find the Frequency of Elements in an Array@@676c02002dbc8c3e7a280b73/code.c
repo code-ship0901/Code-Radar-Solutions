@@ -13,8 +13,9 @@ int main(){
           if (arr[i]==arr[j]){
             c++;
           }
-          printf("%d %d\n",arr[i],c);
+         
     }
+     printf("%d %d\n",arr[i],c+1);
 
     }
 
