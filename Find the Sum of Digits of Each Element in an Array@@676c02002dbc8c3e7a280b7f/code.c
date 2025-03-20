@@ -7,8 +7,8 @@ int main(){
         scanf("%d",&a[i]);
     }
     for (int i=0;i<n;i++){
-          int sum=0;
-        while (a[i]>0){
+        int sum=0;
+        while (abs(a[i])>0){
             fd=a[i]%10;
             sum+=fd;
             a[i]=a[i]/10;
