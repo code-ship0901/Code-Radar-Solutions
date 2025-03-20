@@ -12,7 +12,7 @@ int main(){
             c++;
         }
     }
-    if (c>0){
+    if (c==n-1){
         printf("YES");
 
     }
