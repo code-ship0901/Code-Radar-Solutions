@@ -7,7 +7,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for (int i=0;i<a;i++){
+        int c=0;
        for (int j=i+1;j<a;j++){ 
+
           if (arr[i]==arr[j]){
             c++;
           }
