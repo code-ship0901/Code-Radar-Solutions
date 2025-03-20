@@ -7,7 +7,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for (int i=0;i<a;i++){
-       for (int j=0;j<a;i++){ 
-          
+       for (int j=i+1;j<a;j++){ 
+          if (arr[i]==arr[j]){
+            c++;
+          }
+          printf("%d %d\n",arr[i],c);
     }
+
+    }
+
 }
