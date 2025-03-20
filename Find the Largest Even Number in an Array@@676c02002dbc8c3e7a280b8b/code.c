@@ -11,6 +11,9 @@ int main(){
         if (a[i]>largest && a[i]%2==0){
             largest=a[i];   
         }
+        else{
+            largest=-1;
+        }
     }
     printf("%d",largest);
 }
