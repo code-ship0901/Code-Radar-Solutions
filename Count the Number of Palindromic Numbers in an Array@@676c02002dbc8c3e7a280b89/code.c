@@ -16,7 +16,7 @@ int main(){
             rev=rev*10+fd;
             a[i]=a[i]/10;
         }
-        if (a[i]==rev){
+        if (og==rev){
             c++;
         }
     }
