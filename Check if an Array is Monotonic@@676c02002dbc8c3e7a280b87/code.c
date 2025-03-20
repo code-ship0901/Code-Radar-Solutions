@@ -13,7 +13,7 @@ int main(){
         if (a[i]>a[i+1]){
             inc=0;
         }
-        if (a[i]>=a[i+1]){
+        if (a[i]<a[i+1]){
             dec=0;
         }
     }
