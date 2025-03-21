@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <climits.h>
 int main(){
     int l;
     scanf("%d",&l);
@@ -10,18 +11,22 @@ int main(){
     for (int i=0;i<l;i++){
         scanf("%d",&arr[i]);
     }
-    int m1=arr[0];
+    int m1=INT_MIN;
     for (int i=0;i<l;i++){
         if (arr[i]>m1){
             m1=arr[i];
         }
     }
-    int m2=-1;
+    int m2=INT_MIN;
     for (int i=0;i<l;i++){
         if (arr[i]>m2 && arr[i]<m1){
             m2=arr[i];
         }
     }
+    if (m2==INT_MIN){
+        printf("-1");
+    }
+    else{
     printf("%d",m2);
-    return 0;
+    }
 }
