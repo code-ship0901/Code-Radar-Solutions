@@ -16,7 +16,7 @@ int main(){
             m1=arr[i];
         }
     }
-    int m2=arr[0];
+    int m2=-1;
     for (int i=0;i<l;i++){
         if (arr[i]>m2 && arr[i]<m1){
             m2=arr[i];
@@ -24,8 +24,4 @@ int main(){
     }
     printf("%d",m2);
     return 0;
-
-    else {
-        printf("-1");
-    }
 }
