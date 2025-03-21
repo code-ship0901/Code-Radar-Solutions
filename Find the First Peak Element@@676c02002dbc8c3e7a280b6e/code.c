@@ -18,11 +18,8 @@ int main() {
                 max=a[i];
                 printf("%d",max);
                 break;
-                return 0;
             }
         }
-    
-    
     }
     return -1;
 }
