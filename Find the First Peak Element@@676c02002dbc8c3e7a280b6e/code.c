@@ -17,7 +17,6 @@ int main() {
         if((a[i]>a[i+1]) && (a[i]>a[i-1])){
             max=a[i];
             printf("%d",max);
-            break;
             return 0;
         }
     }
