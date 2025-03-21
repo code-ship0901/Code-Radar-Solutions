@@ -12,12 +12,16 @@ int main() {
         printf("%d",a[0]);
         return 0;
     }
-    for (int i=1;i<n-1;i++){
-        if((a[i]>a[i+1]) && (a[i]>a[i-1])){
-            max=a[i];
-            break;
+    else{
+        for (int i=1;i<n-1;i++){
+            if((a[i]>a[i+1]) && (a[i]>a[i-1])){
+                max=a[i];
+                printf("%d",max);
+                break;
+            }
         }
+    
+    
     }
-    printf("%d",max);
-    return 0;
+    
 }
