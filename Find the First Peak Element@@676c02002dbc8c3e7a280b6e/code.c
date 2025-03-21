@@ -9,7 +9,7 @@ int main() {
 
     int max;
     if (a[0]>a[1]){
-        printf("%d",a[0]);
+        printf("%d\n",a[0]);
         return 0;
     }
     
