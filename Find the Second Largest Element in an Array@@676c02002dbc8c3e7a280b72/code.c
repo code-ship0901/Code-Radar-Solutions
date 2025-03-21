@@ -23,4 +23,9 @@ int main(){
         }
     }
     printf("%d",m2);
+    return 0;
+
+    else {
+        printf("-1");
+    }
 }
