@@ -9,6 +9,8 @@ int bubbleSort(int arr[100],int n){
             }
         }
     }
+
+    return arr;
 }
 int printArray(int arr[100],int n){
     for (int i=0;i<n;i++){
