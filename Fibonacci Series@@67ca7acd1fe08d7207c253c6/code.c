@@ -10,6 +10,8 @@ int fibonacciSeries(int n){
         first=second;
         second=sum;
     }
-    return arr;
+    for(int i=0;i<n;i++){
+        return arr[i];
+    }
     
 }
