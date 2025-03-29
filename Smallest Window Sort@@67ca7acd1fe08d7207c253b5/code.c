@@ -4,4 +4,5 @@ int findUnsortedSubarray(int arr[10000],int n){
             return arr[i];
         }
     }
+    return 0;
 }
