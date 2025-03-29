@@ -5,8 +5,7 @@ int fibonacciSeries(int n){
     arr[0]=first;
      arr[1]=second;
     for(int i=2;i<n;i++){
-        int sum=first+second;
-        arr[i]=sum;
+        arr[i]=first+second;
         first=second;
         second=sum;
     }
