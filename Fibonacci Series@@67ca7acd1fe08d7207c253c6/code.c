@@ -11,7 +11,7 @@ int fibonacciSeries(int n){
         second=sum;
     }
     for(int i=0;i<n;i++){
-        return arr[i];
+        printf("%d ",arr[i]);
     }
     
 }
