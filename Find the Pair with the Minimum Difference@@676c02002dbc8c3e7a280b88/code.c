@@ -28,8 +28,7 @@ int main(){
                 }
         }
     }
-    if(f1<=f2){
-    printf("%d %d",f1,f2);}
-    else if(f1>f2){
-    printf("%d %d",f2,f1);}
+   
+    printf("%d %d",f1,f2);
+    
 }
