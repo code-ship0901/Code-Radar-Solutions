@@ -16,11 +16,16 @@ int main(){
     int min=INT_MAX;
     for (int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(min>abs(a[i]-a[j])){
-                min=abs(a[i]-a[j]);
-                f1=a[i];
-                f2=a[j];
-            }
+             int diff = abs(a[i] - a[j]);
+            if (diff < min_diff) {
+                min_diff = diff;
+                if (a[i] < a[j]) {
+                    f1 = a[i];
+                    f2 = a[j];
+                } else {
+                    f1 = a[j];
+                    f2 = a[i];
+                }
         }
     }
     if(f1<=f2){
