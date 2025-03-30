@@ -14,7 +14,7 @@ int main(){
                 c++;  
             }
         }
-        if (c==n-i-1){
+        if (c==n-i){
             printf("%d ",a[i]);
         }
     }
