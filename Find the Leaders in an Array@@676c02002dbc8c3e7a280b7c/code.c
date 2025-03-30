@@ -9,7 +9,7 @@ int main(){
     
     for (int i=0;i<n;i++){
         int c=0;
-        for (int j=i,j<n;j++){
+        for (int j=i;j<n;j++){
             if (a[i]>a[j]){
                 c++;  
             }
