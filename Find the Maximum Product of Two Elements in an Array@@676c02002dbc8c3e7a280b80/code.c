@@ -10,9 +10,9 @@ int main(){
     for (int i=0;i<n;i++){
         for (int j=i+1;j<n;j++){
             if(abs(a[j])>abs(a[j+1])){
-                abs(a[j+1])^=abs(a[j]);
-                abs(a[j])^=abs(a[j+1]);
-                abs(a[j+1])^=abs(a[j]);
+                (a[j+1])^=(a[j]);
+                (a[j])^=(a[j+1]);
+                (a[j+1])^=(a[j]);
             }
         }
     }
