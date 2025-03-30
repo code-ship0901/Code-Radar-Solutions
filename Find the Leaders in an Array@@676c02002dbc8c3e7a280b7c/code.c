@@ -9,13 +9,13 @@ int main(){
     
     for (int i=0;i<n;i++){
         int c=0;
-       for (int j=i,j<n;j++){
+        for (int j=i,j<n;j++){
             if (a[i]>a[j]){
-              c++;  
+                c++;  
             }
-       }
-       if (c==n-i-1){
-           printf("%d ",a[i]);
-       }
+        }
+        if (c==n-i-1){
+            printf("%d ",a[i]);
+        }
     }
 }
