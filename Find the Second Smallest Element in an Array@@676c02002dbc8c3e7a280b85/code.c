@@ -21,9 +21,10 @@ int main(){
                 swapped = 1;
             }
     }
-    }
+    
     if (!swapped){
         break;
+    }
     }
    int first = arr[0], second = -1;
     for (int i = 1; i < n; i++) {
