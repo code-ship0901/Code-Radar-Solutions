@@ -18,9 +18,9 @@ int main(){
         }
     }
     if (c==0){
-        return -1;
+        printf("-1");
     }
     else{
-       return arr[1];
+       printf("%d",arr[1]);
     }
 }
