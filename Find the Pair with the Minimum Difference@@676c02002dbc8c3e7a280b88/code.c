@@ -12,7 +12,8 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d ",&a[i]);
     }
-    int f1,f2;
+    
+    int f1 = a[0], f2 = a[1]; 
     int min=INT_MAX;
     for (int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
