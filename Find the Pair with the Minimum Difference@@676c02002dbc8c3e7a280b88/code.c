@@ -28,7 +28,7 @@ int main(){
                 }
         }
     }
-   
+    }
     printf("%d %d",f1,f2);
     
 }
