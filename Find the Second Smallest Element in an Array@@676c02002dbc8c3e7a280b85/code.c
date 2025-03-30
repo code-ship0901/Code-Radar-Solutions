@@ -6,26 +6,33 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int c=0;
+    if (n < 2) {
+        printf("-1");
+        return 0;
+    }
+    int swapped;
     for (int i=0;i<n;i++){
-        for (int j=0;j<n-i-1;j++){
-            if (arr[j]==arr[j+1]){
-                continue;
+        swapped = 0;
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+                swapped = 1;
             }
-            else if(arr[j]>arr[j+1] || arr[j]<arr[j+1]){
-                c++;
-            }
-            else if(arr[j]>arr[j+1]){
-                arr[j]^=arr[j+1];
-                arr[j+1]^=arr[j];
-                arr[j]^=arr[j+1];
-             }
+    }
+    }
+    if (!swapped){
+        break;
+    }
+   int first = arr[0], second = -1;
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > first) {
+            second = arr[i];
+            break;
         }
     }
-    if (c==0){
-        printf("-1");
-    }
-    else{
-       printf("%d",arr[1]);
-    }
+
+    printf("%d", second);
+    return 0;
 }
