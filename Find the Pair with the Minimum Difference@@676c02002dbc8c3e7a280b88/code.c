@@ -9,7 +9,7 @@ int main(){
         scanf("%d ",&a[i]);
     }
     int f1,f2;
-    int min=INT_MIN;
+    int min=INT_MAX;
     for (int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(min>abs(a[i]-a[j])){
