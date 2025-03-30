@@ -28,6 +28,15 @@ int main(){
                     f2 = a[i];
                 }
         }
+        else if (diff == min) {
+                int new_f1 = (a[i] < a[j]) ? a[i] : a[j];
+                int new_f2 = (a[i] < a[j]) ? a[j] : a[i];
+
+                if (new_f1 < f1 || (new_f1 == f1 && new_f2 < f2)) {
+                    f1 = new_f1;
+                    f2 = new_f2;
+                }
+            }
     }
     }
     printf("%d %d",f1,f2);
