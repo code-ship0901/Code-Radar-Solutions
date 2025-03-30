@@ -11,8 +11,11 @@ int main(){
         int c=0;
        for (int j=i,j<n;j++){
             if (a[i]>a[j]){
-                c++;
+              c++;  
             }
+       }
+       if (c==n-i-1){
+           printf("%d ",a[i]);
        }
     }
 }
