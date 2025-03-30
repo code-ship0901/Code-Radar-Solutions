@@ -17,8 +17,8 @@ int main(){
     for (int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
              int diff = abs(a[i] - a[j]);
-            if (diff < min_diff) {
-                min_diff = diff;
+            if (diff < min) {
+                min= diff;
                 if (a[i] < a[j]) {
                     f1 = a[i];
                     f2 = a[j];
